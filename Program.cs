@@ -13,9 +13,9 @@ namespace getUsers
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Please enter the domain or remote.domain :");
-            //string domainName = Console.ReadLine(); 
-            string domainName = "nextend.local";
+            Console.WriteLine("Please enter the domain or remote.domain :");
+            string domainName = Console.ReadLine(); 
+            //string domainName = "nextend.local";
             string[] propertiesToLoad = { "samaccountname", "givenname", "sn", "mail" };
 
             using (DirectoryEntry root = new DirectoryEntry("LDAP://" + domainName))
