@@ -13,6 +13,8 @@ namespace getUsers
     {
         static void Main(string[] args)
         {
+            //Console.WriteLine("Please enter the domain or remote.domain :");
+            //string domainName = Console.ReadLine(); 
             string domainName = "nextend.local";
             string[] propertiesToLoad = { "samaccountname", "givenname", "sn", "mail" };
 
@@ -26,6 +28,7 @@ namespace getUsers
                     searcher.PropertiesToLoad.AddRange(propertiesToLoad);
 
                     SearchResultCollection results = searcher.FindAll();
+                    //string csvFilePath = @"C:\Temp\users.csv";
                     string csvFilePath = "users.csv";
                     using (StreamWriter writer = new StreamWriter(csvFilePath))
                     {
