@@ -1,0 +1,8 @@
+C:\Users\Administrator\source\repos\getUsers\getUsers\bin\Debug\getUsers.exe.config
+C:\Users\Administrator\source\repos\getUsers\getUsers\bin\Debug\getUsers.exe
+C:\Users\Administrator\source\repos\getUsers\getUsers\bin\Debug\getUsers.pdb
+C:\Users\Administrator\source\repos\getUsers\getUsers\obj\Debug\getUsers.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\getUsers\getUsers\obj\Debug\getUsers.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\source\repos\getUsers\getUsers\obj\Debug\getUsers.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\getUsers\getUsers\obj\Debug\getUsers.exe
+C:\Users\Administrator\source\repos\getUsers\getUsers\obj\Debug\getUsers.pdb
